@@ -3,7 +3,7 @@ body {
 }
 
 #showcase {
-    background-image: url(/images/istockphoto-1181563943-612x612.jpg);
+    background-image: url(/images/beach.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -21,14 +21,15 @@ button {
     width: 100px;
     height: 50px;
     background: none;
-    border-color: black;
+    border-color: white;
+    color: white;
 }
 
 
 
 button:hover {
-    color: white;
-    background-color: black;
+    color: blue;
+    background-color: white;
 }
 
 #section-a{
@@ -38,13 +39,25 @@ button:hover {
 }
 
 #section-b{
-    padding:10px;
+    padding:10px; margin-bottom: 0px;
 }
 
 #section-c{
    display: flex;
-   padding:10px;
+   padding:10px; margin-top: 0px;
    
    
 }
-p.color{background-color: blue;}
+p.color{background-color: blue; color: white; }
+#B{
+    font-size: large; font-weight: bold; color: blue
+}
+#v{
+color: rgb(230, 154, 63); font-weight: bolder; font-size: 50px;
+}
+#myBtn{
+margin-top: 50px;
+}
+p{
+    padding: 10px 50px ;
+}
